@@ -1,0 +1,36 @@
+{
+  "name": "npm-demo-lala_2017",
+  "version": "1.0.0",
+  "main": "libraries/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Aggie123/npm-demo.git"
+  },
+  "author": "Aggie123",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aggie123/npm-demo/issues"
+  },
+  "homepage": "https://github.com/Aggie123/npm-demo#readme",
+  "keywords": [
+    "test"
+  ],
+  "description": "",
+  "dependencies": {
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.0",
+    "react-navigation": "^1.0.0-beta.9"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "20.0.0",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
