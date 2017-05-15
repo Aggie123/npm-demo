@@ -2,23 +2,21 @@
 * Hello World
 * @function hello
 **/
-const hello = function(key){
+/*const hello = function(key){
 	//return 'hello';
     console.log('Hello World!');
 };
 
 exports.hello     = hello;
-
+*/
 
 'use strict';
-
-const invariant = require('fbjs/lib/invariant');
 
 // Export React, plus some native additions.
 const NpmDemo = {
   // Components
-  get AccessibilityInfo() { return require('AccessibilityInfo'); },
-  get ActivityIndicator() { return require('ActivityIndicator'); },
+  get Button() { return require('./components/button'); },
+  get Modal() { return require('./components/modal'); },
 }
 
 module.exports = NpmDemo;

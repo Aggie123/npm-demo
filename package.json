@@ -1,6 +1,6 @@
 {
   "name": "npm-demo-lala_2017",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "libraries/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
