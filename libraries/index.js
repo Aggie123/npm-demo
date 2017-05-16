@@ -15,8 +15,8 @@ exports.hello     = hello;
 // Export React, plus some native additions.
 const NpmDemo = {
   // Components
-  get Button() { return require('./components/button'); },
-  get Modal() { return require('./components/modal'); },
+  get Button() { return require('./components/button').default; },
+  get Modal() { return require('./components/modal').default; },
 }
 
 module.exports = NpmDemo;
